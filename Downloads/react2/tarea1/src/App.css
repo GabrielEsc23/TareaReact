@@ -1,0 +1,33 @@
+body{
+  background-color: rgba(39, 184, 206, 0.437);
+  background-size: cover;
+  margin: 0;
+  padding: o;
+}
+
+.imagenes {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.imagenes div {
+  text-align: center;
+}
+
+.imagenes img {
+  width: 150px;
+  animation:moverIzquierdaDerecha 3s infinite;
+  height: 250px;
+  border-radius: 10px;
+}
+
+
+@keyframes moverIzquierdaDerecha {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
